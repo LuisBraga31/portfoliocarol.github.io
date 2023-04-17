@@ -118,14 +118,20 @@ header {
 .works {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    grid-row-gap: 10em;
-    grid-column-gap: 10em;
+    grid-row-gap: 5em;
+    grid-column-gap: 1em;
 }
 
 .work-item {
-    padding: 20px;
-    width: 15vw;
-    height: 20vh;
+    width: 25vw;
+    height: 45vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.work-item img {
+    width: 20vw;
 }
 
 .work-item:hover {
