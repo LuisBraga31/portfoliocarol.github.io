@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 /* ==== Header ==== */
@@ -164,24 +165,64 @@ header {
 }
 
 .contacts {
-    padding: 5em;
+    padding: 50px 20px;
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 50px;
+    gap: 150px;
 }
 
 .contacts-left {
-    background-color: yellow;
+background-color: lightgray;
+padding: 20px;
+border-radius: 10px;
     width: 50%;
-    
+
 }
 
-.contacts-right {
-    background-color: green;
-    width: 50%;
+.contacts-left form {
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: left;
+    gap: 10px;
+    width: 330px;
+}
+
+.form-main {
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+    justify-content: center;
+    align-items: left;
+}
+
+.form-main input, textarea {
+    width: 300px;
+    padding: 5px;
+    border: 1px solid black;
+    font-size: 10px;
+}
+
+.form-button {
+    display: flex;
+    padding-top: 10px;
+    padding-left: 230px;
+}
+
+.form-button button{
+    padding: 5px 15px;
+    background-color: lightblue;
+    border: 1px solid black;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+
+
+.contacts-right {
+    width: 50%;
+    display: flex;
     justify-content: center;
     align-items: center;
     gap: 50px;
@@ -201,5 +242,5 @@ header {
     padding: 5px;
     font-size: 14px;
     text-align: center;
-    background-color: whitesmoke;
+    background-color: #f3f3f2;
 }
