@@ -61,6 +61,7 @@ header {
     gap: 20px;
 }
 
+
 .about-right {
     width: 50%;
     padding: 5em;    
@@ -83,24 +84,33 @@ header {
 }
 
 .skills {
-    display: flex;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
     justify-content: center;
     gap: 40px;
     align-items: center;
+
 }
 
 .skill-item {
+    display: flex;
+    flex-direction: column;
     width: 150px;
     border-radius: 25px;
     display: flex;
     align-items: center;
-    gap: 5px;
+    gap: 8px;
+}
+
+.skill-item h4 {
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
 }
 
 .skill-item img {
     position: relative;
-    width: 50px;
-    border: 2px solid lightgray;
+    width: 70px;
+    height: 70px;
     border-radius: 50px;
     cursor: pointer;
 }
