@@ -169,15 +169,15 @@ header {
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 150px;
+    gap: 50px;
 }
+    /* ==== Section - Contatos LEFT ==== */
 
 .contacts-left {
-background-color: lightgray;
-padding: 20px;
-border-radius: 10px;
+    background-color: #d3d3d3;
+    padding: 20px;
+    border-radius: 10px;
     width: 50%;
-
 }
 
 .contacts-left form {
@@ -186,7 +186,13 @@ border-radius: 10px;
     justify-content: center;
     align-items: left;
     gap: 10px;
-    width: 330px;
+    width: 300px;
+}
+
+.form-header {
+    width: 300px;
+    text-align: center;
+    padding-bottom: 15px;
 }
 
 .form-main {
@@ -200,8 +206,10 @@ border-radius: 10px;
 .form-main input, textarea {
     width: 300px;
     padding: 5px;
-    border: 1px solid black;
+    border-radius: 5px;
+    border-width: 0;
     font-size: 10px;
+    background-color: #f3f3f2;
 }
 
 .form-button {
@@ -218,25 +226,44 @@ border-radius: 10px;
     cursor: pointer;
 }
 
-
+    /* ==== Section - Contatos RIGHT ==== */
 
 .contacts-right {
     width: 50%;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 50px;
+    gap: 20px;
+    padding: 2em;
+    margin-bottom: 10vh;
 }
 
+.contacts-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
 
+.contacts-options {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+}
 
 .contact-item img {
-    width: 50px;
+    width: 40px;
     border-radius: 50px;
+    cursor: pointer;
 }
+
 
 
 /* ==== Footer ==== */
+
 .footer-tag {
     width: 100%;
     padding: 5px;
