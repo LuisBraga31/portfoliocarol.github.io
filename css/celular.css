@@ -1,0 +1,79 @@
+@media(max-width: 426px) {
+
+    /* Header */
+    header {
+        flex-direction: column;
+        height: 18vh;
+    }
+
+    .header-nav {
+        margin: 0;
+    }
+
+    .nav-itens {
+        display: flex;
+
+        justify-content: center;
+        align-items: center;
+        gap: 25px;
+    }
+
+    /* Main */
+
+    /* Sobre */
+    #section-about {
+        flex-direction: column;
+    }
+
+    .about-left {
+        width: 100%;
+        margin: 0;
+    }
+
+    .about-left p {
+        padding: 0 0;
+    }
+
+    .about-right {
+        width: 100%;
+        padding: 1em;  
+    }
+
+    /* Skills */
+
+    .skills {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    /* Trabalhos */
+
+    .works {
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+    }
+
+    .work-item {
+        width: 80vw;
+    }
+
+    .work-item img {
+        width: 65vw;
+    }
+
+    /* Contatos */
+
+    .contacts {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .contacts-left form {
+        width: 300px;
+    }
+
+    .contacts-right {
+        margin: 0;
+    }
+
+}
