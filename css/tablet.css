@@ -1,0 +1,70 @@
+@media (min-width:426px) and (max-width: 900px) {
+    header {
+        flex-direction: column;
+        height: 30vh;
+        padding: 0;
+        margin: 0;
+        justify-content: center;
+        gap: 50px;
+    }
+
+    .header-nav {
+        margin: 0;
+        padding: 1px;
+    }
+    
+    #section-about {
+        flex-direction: column;
+    }
+
+    .about-left {
+        width: 100%;
+        margin: 0;
+    }
+
+    .about-left p {
+        padding: 0 0;
+    }
+
+    .about-right {
+        width: 100%;
+        padding: 1em;  
+        margin-bottom: 20px;
+    }
+
+
+    .skills {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
+
+
+    .works {
+        display: grid;
+        grid-template-columns: 1fr 1fr ;
+        grid-column-gap: 0.5em;
+    }
+
+    .work-item {
+        width: 45vw;
+        height: 53vh;
+    }
+
+    .work-item img {
+        width: 30vw;
+        height: 40vh;
+    }
+
+
+    .contacts {
+        flex-direction: column;
+        gap: 20px;
+    }
+    .contacts-left form {
+        width: 500px;
+    }
+
+    .contacts-right {
+        margin: 0;
+    }
+}
