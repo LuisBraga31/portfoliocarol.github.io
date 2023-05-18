@@ -16,7 +16,7 @@ header {
     justify-content: space-evenly;
     align-items: center;
     gap: 200px;
-    background-color: black;
+    background-color: #151515;
     border-bottom: 0.1px solid gold;
 }
 
@@ -58,7 +58,7 @@ header {
     padding: 150px 0px 0px;
     width: 100%;
     display: flex;
-    background-color: #060D15;
+    background-color: #212121;
 }
 
 .about-left {
@@ -81,17 +81,18 @@ header {
 .about-left button {
     padding: 5px 15px;
     border-radius: 5px;
-    border: 3px solid black;
+    border-style: none;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 16px;
     cursor: pointer;
-    color: black;
+    color: white;
+    background-color: #313131;
     font-weight: bold;
     transition: 0.5s;
 }
 
 .about-left button:hover {
-    transform: scale(1.15);
+    color: gold;
 }
 
 .about-right {
@@ -105,7 +106,7 @@ header {
 .about-right img {
     width: 300px;
     border-radius: 255px;
-    border: 2px solid black;
+
 }
 
 /* ==== Section - Skills ==== */
@@ -118,7 +119,7 @@ header {
     justify-content: center;
     align-items: center;
     gap: 50px;
-    background-color: #070F1D;
+    background-color: #313131;
 }
 
 #section-skills h2 {
@@ -165,7 +166,7 @@ header {
     gap: 50px;
     justify-content: center;
     align-items: center;
-    background-color: #060D15;
+    background-color: #212121;
     padding: 4em;
 }
 
@@ -214,7 +215,7 @@ header {
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: #070F1D;
+    background-color: #313131;
     padding-top: 30px;
 }
 
