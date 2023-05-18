@@ -2,34 +2,37 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: 'Inter', Helvetica,sans-serif;
     color: white;
 }
 
 /* ==== Header ==== */
 
 header {
+    position: fixed;
+    z-index: 999;
     width: 100%;
-    height: 8vh;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
+    gap: 200px;
     background-color: black;
+    border-bottom: 0.1px solid gold;
 }
 
 .header-logo {
-
     display: flex;
     justify-content: center;
     align-items: center;
+    padding: 35px;
 }
 
 .header-logo img {
     width: 220px;
+
 }
 
 .header-nav {
-    margin-left: 50vw;
     padding: 5px;
 }
 
@@ -45,16 +48,17 @@ header {
 }
 
 .nav-itens a:hover {
-
+    color: gold;
     transform: scale(1.2);
 }
 
 /* ==== Section - Sobre Mim ==== */
 
 #section-about {
+    padding: 150px 0px 0px;
     width: 100%;
     display: flex;
-    background-color: #005884;
+    background-color: #060D15;
 }
 
 .about-left {
@@ -107,17 +111,18 @@ header {
 /* ==== Section - Skills ==== */
 
 #section-skills {
-    margin-top: 20px;
+    padding: 50px;
     width: 100%;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     gap: 50px;
+    background-color: #070F1D;
 }
 
 #section-skills h2 {
-    color: black;
+    color: gold;
 }
 
 .skills {
@@ -138,11 +143,6 @@ header {
     gap: 8px;
 }
 
-.skill-item h4 {
-    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    color: black;
-}
-
 .skill-item img {
     position: relative;
     width: 70px;
@@ -159,14 +159,18 @@ header {
 /* ==== Section - Trabalhos ==== */
 
 #section-works {
-    margin-top: 50px;
+    padding-top: 50px;
     display: flex;
     flex-direction: column;
     gap: 50px;
     justify-content: center;
     align-items: center;
-    background-color: #005884;
+    background-color: #060D15;
     padding: 4em;
+}
+
+#section-works h2 {
+    color: gold;
 }
 
 .works {
@@ -206,15 +210,17 @@ header {
 /* ==== Section - Contatos ==== */
 
 #section-contact {
-    margin-top: 20px;
     width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
+    background-color: #070F1D;
+    padding-top: 30px;
 }
 
 #section-contact h2 {
-    color: black;
+    color: gold;
+
 }
 
 .contacts {
@@ -228,7 +234,7 @@ header {
     /* ==== Section - Contatos LEFT ==== */
 
 .contacts-left {
-    background-color: #005884;
+    background-color: #060D15;
     padding: 20px;
     border-radius: 10px;
     border: 2px solid black;
@@ -288,14 +294,14 @@ header {
     border: none;
     cursor: pointer;
     color: black;
-    background-color: #7feafd;
+    background-color: whitesmoke;
     font-size: 16px;
     font-weight: bolder;
     border-radius: 10px;
 }
 
 .form-button button:hover{
-    transform: scale(1.1);
+    transform: scale(1.05);
 }
 
     /* ==== Section - Contatos RIGHT ==== */
@@ -322,12 +328,10 @@ header {
 }
 
 .contacts-box h4 {
-    color: black;
-    font-size: 26px;
+    font-size: 24px;
 }
 
 .contacts-box p {
-    color: black;
     font-size: 20px;
 }
 
